@@ -1,5 +1,7 @@
 # As-Is
 
+Fork of Declan's personal predicate package found at - https://www.npmjs.com/package/@dec-land/as-is
+
 ## Description
 As-Is contains two modules.
  * Is - Type predicates for checking values are of certain types.
@@ -32,21 +34,21 @@ bun add as-is
 Using require:
 ```js
 // Load the As and Is
-const { As, Is } = require('@dec-land/as-is');
+const { As, Is } = require('@hubootech/as-is');
 
 // Load them seperately
-const As = require('@dec-land/as-is/as');
-const Is = require('@dec-land/as-is/is');
+const As = require('@hubootech/as-is/as');
+const Is = require('@hubootech/as-is/is');
 ```
 
 Using import:
 ```ts
 // Load the As and Is
-import { Is, As } from '@dec-land/as-is';
+import { Is, As } from '@hubootech/as-is';
 
 // Load them seperately
-import As from '@dec-land/as-is/As';
-import Is from '@dec-land/as-is/Is';
+import As from '@hubootech/as-is/As';
+import Is from '@hubootech/as-is/Is';
 ```
 
 ## Examples
@@ -54,7 +56,7 @@ import Is from '@dec-land/as-is/Is';
 
 In Examples
 ```ts
-import Is from '@dec-land/as-is/Is';
+import Is from '@hubootech/as-is/Is';
 
 Is.number(5) // true
 Is.number('test'); // false
@@ -70,7 +72,7 @@ Is.date(new Date()); // true
 
 As Examples
 ```ts
-import { As, Is } from '@dec-land/as-is';
+import { As, Is } from '@hubootech/as-is';
 
 let a: unknown = 'test'; // Here we have an unknown string
 
